@@ -1,0 +1,27 @@
+@media (max-width:480px) {
+    .texto__formulario{
+        font-size: 1.3rem;
+        margin-top: 5px;
+    }
+    input{
+        width: 60%;
+        height: 60px;
+    }
+    textarea{
+        width: 60%;
+        height: 130px;
+    }
+}
+
+@media (max-width:480px) {
+    .titulo__paginas {
+        width: 50vw;
+        font-size: 2rem;
+    }
+    .imagen__nosotros {
+        width: 100%;
+    }
+    .texto__nosotros {
+        font-size: 1rem;
+    }
+}

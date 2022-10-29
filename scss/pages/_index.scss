@@ -1,0 +1,38 @@
+.fondo__index {
+    background-image: url(../../assets/img/fondoindex.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor__index {
+    border: 3px black solid;
+}
+
+.titulo {
+    width: 50vw;
+    margin-bottom: 5vh;
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+    background-color: rgba(4, 163, 110, 0.438);
+    border: solid black 3px;
+    border-radius: 20px;
+}
+
+.carrusel {
+    height: 100vh;
+}
+
+.titulo__inicio{
+    color: white;
+    font-family:$fuentesecundaria;
+    margin-top: 10px;
+    font-size: 2.2rem;
+}
+.texto__inicio{
+    color: white;
+    font-family: $fuentesecundaria;
+    font-size: 1.3rem;
+}

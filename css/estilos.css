@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .texto__formulario {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+  input {
+    width: 60%;
+    height: 60px;
+  }
+  textarea {
+    width: 60%;
+    height: 130px;
+  }
+}
+@media (max-width: 480px) {
+  .titulo__paginas {
+    width: 50vw;
+    font-size: 2rem;
+  }
+  .imagen__nosotros {
+    width: 100%;
+  }
+  .texto__nosotros {
+    font-size: 1rem;
+  }
+}
+.logo {
+  width: 10%;
+  border: solid 3px black;
+}
+
+.header {
+  background-color: lightgreen;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: blue;
+  font-size: 1.65rem;
+  transition: 1s;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+}
+
+.dropdown-item:hover {
+  color: blue;
+  font-size: 1.2rem;
+  transition: 1s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  text-align: center;
+}
+
+footer {
+  background-color: lightgreen;
+}
+
+.fondo__index {
+  background-image: url(../../assets/img/fondoindex.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenedor__index {
+  border: 3px black solid;
+}
+
+.titulo {
+  width: 50vw;
+  margin-bottom: 5vh;
+  color: white;
+  font-size: 2rem;
+  text-decoration: underline;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+  background-color: rgba(4, 163, 110, 0.438);
+  border: solid black 3px;
+  border-radius: 20px;
+}
+
+.carrusel {
+  height: 100vh;
+}
+
+.titulo__inicio {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 10px;
+  font-size: 2.2rem;
+}
+
+.texto__inicio {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+}
+
+.fondo__carnaval {
+  background-image: url(../../assets/img/fondocarnaval.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carnaval__texto {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: goldenrod;
+  border-radius: 20px;
+}
+
+.boton:hover {
+  background-color: black;
+  color: white;
+  transition: 1.5s;
+}
+
+.contenedor__contacto {
+  border: solid black 3px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+  margin-top: 20px;
+}
+
+.fondo__contacto {
+  background-image: url("../../assets/img/fondocontacto.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input {
+  border: solid 2px black;
+  font-size: 2rem;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0, 121, 0, 0.6431372549);
+  justify-content: center;
+}
+
+textarea {
+  background-color: rgba(0, 121, 0, 0.6431372549);
+  border: 2px black solid;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-align: center;
+}
+
+form span {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.2rem;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  margin-top: 20px;
+}
+
+.titulo__paginas {
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgba(4, 163, 110, 0.603);
+  border: solid black 3px;
+  border-radius: 20px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+}
+
+.fondo__nosotros {
+  background-image: url(../../assets/img/fondonosotros.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagen__nosotros {
+  border: 6px solid lightblue;
+  width: 60vw;
+  margin-top: 3vh;
+}
+
+.texto__nosotros {
+  margin-top: 5vh;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.titulo__tours {
+  width: 40vw;
+  background-color: rgba(4, 163, 110, 0.603);
+  border: solid black 3px;
+  border-radius: 20px;
+  margin-bottom: 5vh;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+}
+
+.carta__estilo {
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+  margin-bottom: 5vh;
+}
+
+.letra {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.tour__img {
+  height: 40vh;
+  margin-top: 10px;
+  border: solid black 2px;
+  border-radius: 20px;
+}
+
+.tour__contenedor {
+  background-image: url(../../assets/img/fondotarjetas.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-title {
+  font-size: 1.8rem;
+}
+
+.card-text {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 480px) {
+  .texto__formulario {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+  input {
+    width: 60%;
+    height: 60px;
+  }
+  textarea {
+    width: 60%;
+    height: 130px;
+  }
+}
+@media (max-width: 480px) {
+  .titulo__paginas {
+    width: 50vw;
+    font-size: 2rem;
+  }
+  .imagen__nosotros {
+    width: 100%;
+  }
+  .texto__nosotros {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

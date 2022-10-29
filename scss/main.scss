@@ -1,0 +1,17 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./utils/media";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./componentes/tarjetas";
+
+@import "./pages/index";
+@import "./pages/carnaval";
+@import "./pages/contacto";
+@import "./pages/nosotros";
+@import "./pages/tour";
+
+@import "./utils/media";

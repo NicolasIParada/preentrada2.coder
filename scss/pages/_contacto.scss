@@ -1,0 +1,50 @@
+.contenedor__contacto {
+    border: solid black 3px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.61);
+    margin-top: 20px;
+}
+.fondo__contacto {
+    background-image: url("../../assets/img/fondocontacto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input {
+    border: solid 2px black;
+    font-size: 2rem;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #007900a4;
+    justify-content: center;
+}
+
+textarea {
+    background-color: #007900a4;
+    border: 2px black solid;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-family: $fuentesecundaria;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+form span {
+    font-family: $fuentesecundaria;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    margin-top: 20px;
+}
